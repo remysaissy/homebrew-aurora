@@ -14,7 +14,7 @@ class AuroraCli < Formula
   # Update binary_util OS map for OSX Sierra.
   patch do
     url "https://github.com/thinker0/aurora/commit/a92876a1.patch"
-    sha256 "b846045b2916c9d82a149bda06d98a2dabdbac435c16ba2943a90344bf55f344"
+    sha256 "62ef23b1fcdce2de5f56c5b9fd9c7c29e5727570c973a6495b46875a96a71433"
   end
   depends_on :python if MacOS.version <= :snow_leopard
 
